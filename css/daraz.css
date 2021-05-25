@@ -1,0 +1,558 @@
+body{
+    background-color: rgb(245 245 245);
+}
+
+.navbar{
+   
+    background-color: rgb(245 245 245); ;
+}
+.navbar-nav
+{
+    margin-left: 500px;
+    
+}
+.nav-item
+{
+    text-transform: uppercase;
+   color: black;
+   font-weight:400;
+}
+.nav-item:hover
+{
+    text-decoration-line: underline;
+}
+.daraz-logo {
+    margin-left: 80px;
+    margin-bottom: 20px;
+    height:50px;
+    width:150px;
+}
+.logo
+{
+    width:20%;
+}
+.d-flex{
+    width:70%;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    margin-left: 0%;
+}
+.icon
+{
+    height: 30px;
+    margin-left: 20px;
+}
+.d-flex button{
+    border-radius: 12px;
+    width:100px;
+    padding:4px 6px 4px 6px;
+    border-color:black ;
+}
+.row{
+    display: flex;
+}
+.off
+{
+  
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.container
+{
+    position: absolute;
+    z-index: +2;
+    background-color:white;
+   
+    width: 200px;
+    margin-left: 80px; 
+    padding:0%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+ .btn-group 
+{
+    color: cornsilk;
+    text-align: left;
+    
+}
+
+.btn
+{
+    background-color: rgb(255, 255, 255);
+    border-style: none;
+    border-color: rgb(255, 255, 255);
+    padding:0%;
+    margin: 0%;
+    color:black;
+    text-align: left;
+    padding-left: 5px;
+    padding-bottom: 2px;
+}
+.carousel-item  {
+    height: 100%;
+    width: 100%;
+   
+    
+
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;   
+}
+
+
+
+.carousel-inner
+{
+   position: relative;
+    width: 100%;
+    height:350px;
+}
+.container-lg
+{
+  margin-top: 30px;
+  background-color: rgb(245 245 245);
+}
+.btnimg img{
+     border-radius: 100px ;
+     height:200px;
+     width: 100%;
+     margin: 20px 40px 20px 40px;
+}
+.notice
+{
+    border-radius: 100px ;
+     height:200px;
+     width: 100%;
+     margin: 20px 40px 20px 40px; 
+}
+
+.col-lg
+{
+    
+margin-bottom: 30px;
+}
+.col-lg img{
+   
+    align-items: flex-start;
+    height: 40px;
+    width:40px;
+    border-radius:100px;
+    margin-left: auto;
+    margin-right:3px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.button
+{
+    background-color: none;
+    padding:1px  6px 3px 1px;
+    border-radius:100px;
+    width: 200px;
+    margin:3px 3px 3px 3px;
+    font-weight: 600;
+    content: normal;
+
+}
+
+.text-container
+{
+    display:grid;
+    grid-template-columns: auto auto;
+}
+
+.text
+{
+    font-size :25px;
+    font-weight: 500;
+    margin-left: 125px;
+    text-transform: capitalize;
+}
+.link p
+{
+    color: chocolate;
+    font-size: 20px;
+    margin-left: 850px;
+   text-transform: uppercase;
+   font-weight: 600;
+}
+.gallery-grid
+
+{
+    position: relative;
+    margin-right: 125px;
+    margin-left: 125px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-bottom: 30px;
+}
+.gallery-grid > div
+{
+    height: 200px;
+   
+}
+.gallery-grid  img
+{
+   height: 100%;
+   width: 100%;
+   align-items: center;
+}
+.gallery-grid2
+{
+    position: relative;
+    margin-right: 125px;
+    margin-left: 125px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    margin-bottom: 30px;
+}
+.gallery-grid2  img
+{
+   height: 100%;
+   width: 100%;
+   align-items: center;
+}
+.gallery-grid2 > div
+{
+    height: 250px;
+    padding-right: 10px;
+   
+}
+
+ .load button
+{
+
+ padding: 3px 100px 3px 100px;
+ margin-bottom:14px;
+ margin-left:37% ;
+ text-transform: uppercase;
+ border-radius: 0px;
+    
+}
+.footor
+{
+    padding-left: 125px;
+    display: grid;
+    grid-template-columns:30% 30% 60%;
+    background-color: #2e2e54;
+    color: cornsilk;
+}
+.footor > div{
+
+    margin-top: 20px;
+   
+    
+}
+.footor p{
+    line-height: 12px;
+    font-weight: 500;
+    
+    font-size: 14px;
+}
+.qr-code
+{
+    margin-bottom: 20px;
+}
+
+
+.button1
+
+{
+  border-radius:6px;
+    padding:4px 8px 4px 8px;
+    background-color: black;
+    color: cornsilk;
+    border-color: black;
+  
+    align-content: center;
+}
+
+
+
+
+
+@media only screen and (max-width:1025px)
+{
+    .navbar-nav
+{
+    margin-left: 10%;
+    
+}
+.logo{
+    width:29%;
+}
+.container-lg
+{
+    overflow: hidden;
+}
+.notice
+{
+    margin: 20px 40px 20px -1px;
+}
+}
+
+
+
+
+
+@media only screen and (max-width:850px)
+{
+    .navbox
+    {
+        float: left;
+        margin-left: 0%;
+       background-color: rgb(245 245 245);
+    }
+    .navbar-nav{
+        width:100%
+    }
+    .container-lg
+    {
+        width: 99%;
+        overflow: hidden;
+    }
+    .notice
+    {
+        border-radius: 100px ;
+         height:200px;
+         width: 94%;
+         margin: 0px 0px 29px 18px; 
+    }
+    .col-lg
+    {    margin-bottom: 1%;
+        margin-right: -72%;
+        margin-left: 4%;
+        overflow:hidden;
+
+    }
+    .text
+    {
+margin-left: 10%;
+    }
+    .link p
+    {
+        margin-left: 50%;
+    }
+    .gallery-grid
+    {
+        margin-right: 7%;
+    margin-left: 4%;
+    margin-bottom: 15px;
+    }
+    .gallery-grid2
+    {
+    margin-right: 7%;
+    margin-left: 4%;
+    margin-bottom: 12px;
+    }
+    .gallery-grid2 > div
+    {
+        padding-right: 7px;
+    }
+    
+        .footor {
+            padding-left: 37px;
+            overflow: hidden;
+        }
+    
+   .row{
+       display: flex;
+      
+   }
+   .off{
+       overflow: hidden;
+   }
+   .d-flex
+   {
+       margin-top: 5px;
+      width:68%
+   }
+   .daraz-logo
+   {
+       margin-left: 20px;
+       margin-bottom: 12px;
+       height: 40px;
+       width: 98px;
+   }
+   .logo{
+       width:16%;
+   }
+   .daraz-logo{
+       width: 75%;
+   }
+
+}
+/*for mobiles*/
+@media only screen and (max-width:428px)
+ {
+
+
+ .navbox
+ {
+     float: left;
+     margin-left: 0%;
+    background-color: rgb(245 245 245);
+ } 
+.off
+    {
+        display: flex;
+    
+        background-color: white;
+       
+        position: relative;
+       width: 100%;
+     
+    }
+    .daraz-logo
+    {
+        display: none;
+    }
+    .d-flex
+    {
+        width:100%;
+        margin-bottom: 5px;
+    }
+
+   
+    
+    .carousel 
+    {
+        width: 100%;
+    }
+    .container
+{
+  display: none;
+}
+.navbar-nav
+{
+    margin-top: 10px;
+    margin-left: 20px;
+    
+}
+.container-lg
+{
+    width:100%;
+    position: relative;
+    overflow: hidden;
+   
+}
+.notice{
+   
+   display: none;
+}
+
+.text
+{
+  
+    margin-left: 12px;
+    text-transform: capitalize;
+}
+.link p
+{
+  display: none;
+}
+.col-lg{
+    width: 76%;
+    margin-bottom: 1%;
+    margin-left: 26%;
+    margin-right: -34%;
+}
+
+.gallery-grid
+
+{
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    overflow: scroll;
+    margin-left: 3%;
+    
+
+    margin-bottom: 8px;
+}
+.gallery-grid > div
+{
+ 
+    width:100%;
+    float: left;
+    height: 200px;
+   
+}
+.gallery-grid  img
+{
+   height: 100%;
+   width: 150px;
+  padding-bottom: 6%;
+  padding-right:4% ;
+}
+.gallery-grid2
+{
+    width:360px;
+    position: relative;
+   
+    margin-left: 3%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-bottom: 5px;
+    overflow: scroll;
+}
+.gallery-grid2  img
+{
+   height: 100%;
+   width: 150px;
+   align-content: center;
+   padding-bottom: 6%;
+}
+.load button{
+    margin-top: 0%;
+    margin-left: 36%; 
+    padding: 2px 3px 2px 3px;
+}
+
+.footor
+{
+    padding-left: 3%;
+    display: grid;
+    grid-template-columns:29% 39% 30%;
+    background-color: #2e2e54;
+    color: cornsilk;
+}
+.footor > div{
+
+    margin-top: 16px;
+   
+    
+}
+.inner-3 img
+{
+ display: none;
+}
+.footor h3{
+    font-size: 16px;
+}
+.footor p{
+    line-height: 0px;
+    font-weight: 500;
+    
+    font-size: 10px;
+}
+
+
+
+
+.button1
+
+{
+  border-radius:6px;
+    padding:2px 4px 2px 4px;
+    background-color: black;
+    color: cornsilk;
+    border-color: black;
+   font-size: 12px;
+    align-content: center;
+}
+ }
